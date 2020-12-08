@@ -1,3 +1,322 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Page settings
+
+baseURL = "https://cv.l2n.me/"
+languageCode = "en"
+title = "Luan Guimarães"
+theme = "hugo-devresume-theme"
+googleAnalytics = ""
+
+[params]
+    author = "Luan Guimarães"
+    description = "Software Engineer"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Luan Guimarães"
+        tagline = "Software Engineer"
+        avatar = "avatar.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "São Paulo - Brazil"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+55 61 99974 6389"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "luang@riseup.net"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "l2n.me"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Languages"
+        [[params.skills.list.items]]
+        details = "Golang/Python/C"
+
+        [[params.skills.list]]
+        title = "Orchestrator"
+        [[params.skills.list.items]]
+        details = "Kubernetes/Rancher/ECS"
+
+        [[params.skills.list]]
+        title = "Cloud"
+        [[params.skills.list.items]]
+        details = "Cloudstack/OpenNebula"
+        [[params.skills.list.items]]
+        details = "Amazon AWS"
+        [[params.skills.list.items]]
+        details = "UCloud PathX"
+
+
+        [[params.skills.list]]
+        title = "Infrastructure as Code"
+        [[params.skills.list.items]]
+        details = "Packer/Terraform/Ansible"
+        [[params.skills.list.items]]
+        details = "Helm/Kustomize"
+
+        [[params.skills.list]]
+        title = "CI/CD"
+        [[params.skills.list.items]]
+        details = "Gitlab-CI/FluxCD"
+
+        [[params.skills.list]]
+        title = "Monitoring"
+        [[params.skills.list.items]]
+        details = "Datadog/PagerDuty"
+        [[params.skills.list.items]]
+        details = "Prometheus/Grafana"
+
+
+        [[params.skills.list]]
+        title = "Other"
+        [[params.skills.list.items]]
+        details = "Elasticsearch/Kibana/Filebeat"
+        [[params.skills.list.items]]
+        details = "Postgres/Etcd/gRPC"
+        [[params.skills.list.items]]
+        details = "Kops/Cilium"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc Software Engineering"
+        university = "University of Brasília"
+        dates = "2014 - 2018"
+        [[params.education.list]]
+        degree = "BSc Electronic Engineering"
+        university = "University of Brasília"
+        dates = "2012 - 2014 | Not finished"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Portuguese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Embedeed Systems"
+        [[params.interests.list]]
+        name = "Computer Networks"
+        [[params.interests.list]]
+        name = "Machine Learning"
+        [[params.interests.list]]
+        name = "Automation"
+        [[params.interests.list]]
+        name = "Linux/eBPF"
+        [[params.interests.list]]
+        name = "Open Source Communities"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I studied electronic and software engineering where I discovered a great interest in low-level programming. Since college I have worked with low-level embedded systems, which has opened the door to the universe of Linux, networks and various other infrastructure topics. I worked as a technical leader in projects for prototyping and implantation of on-premises infrastructure in some university laboratories and also in projects outside the university, such as the Colombian Ministry of Health's epidemiological study center. At the same time, I participated in several projects involving machine learning and clustering systems. My current challenge is working in the gaming industry, building and maintaining solutions that support millions of users worldwide with technologies such as Kubernetes, Terraform, Vault, etc."
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Site Reliability Engineer"
+        dates = "2018 - Present"
+        company = "Wildlife Studios"
+        details = "Wildlife Studios is one of the 10 largest mobile gaming companies in the world."
+        [[params.experience.list.items]]
+        details = "Responsible for maintaining a global scale gamming infrastructure using technologies like Kubernetes, Cilium and Vault."
+        [[params.experience.list.items]]
+        details = "Worked on a variety of projects with different technologies, including Golang, Python, Kubernetes, Etcd, Elasticsearch, eBPF."
+        [[params.experience.list.items]]
+        details = "Development leader of the technology used for easily managing multiple Kubernetes clusters and networks in AWS around the world, including China."
+        [[params.experience.list.items]]
+        details = "Implementation and maintenance of log and metric collection for monitoring systems, including Datadog, Prometheus, Grafana and the ELK stack."
+        [[params.experience.list.items]]
+        details = "Development of Terraform modules and CI/CD pipelines applying Infrastructure as Code practices."
+
+        [[params.experience.list]]
+        title = "DevOps/Machine Learning Engineer"
+        dates = "2017 - 2018"
+        company = "Hacklab"
+        details = "The project Brasil Que o Povo Quer is a platform for social participation and opinion gathering used by Perseu Abramo Foundation to build a new political program for Brazilian public policies. Worked developing the core application and some distributed PCA/k-means clustering models. "
+
+        [[params.experience.list]]
+        title = "Infrastructure Engineer"
+        dates = "2017"
+        company = "Instituto Nacional de la Salud de Colombia"
+        details = "I worked developing and deploying the project Guardianes de la Salud, a platform to help the Colombian National Institute of Health (INS) to monitor and study epidemics. I worked to guarantee the performance, scalability, and reduction of the application's operational cost. I also taught internal courses of Linux virtualization, Linux containers, and Continuous Integration to the Institute's engineers."
+
+        [[params.experience.list]]
+        title = "Software Engineer Researcher"
+        dates = "2016 - 2018"
+        company = "LAPPIS | University of Brasilia"
+        details = "I worked in the project Pushing Together, a social platform for opinion gathering with checks and balances for opinion bubbles and manipulation. I participated in the development of the core application and the mathematical module. I was also responsible for creating and maintaining the cloud infrastructure that supported the service."
+
+
+        [[params.experience.list]]
+        title = "Infrastructure Engineer Intern"
+        dates = "2014 - 2016"
+        company = "CENTEIAS | University of Brasilia"
+        details = "CENTEIAS is a laboratory for epidemiological studies of the Healthy Department at UnB. I was responsible for creating a new private cloud infrastructure based on opensource software for virtualization and Linux container orchestration, including OpenNebula and Rancher. I also worked on the migration of several services to container-based solutions and implemented reliable CI/CD pipelines for these projects."
+
+        [[params.experience.list]]
+        title = "Infrastructure Engineer Researcher"
+        dates = "2013 - 2014"
+        company = "LAPPIS | University of Brasilia"
+        details = "I worked creating and maintaining the laboratory's development infrastructure for the project SPB, a developing collaborative environment that aims at reducing government costs with software contracts. During the project, I worked on designing the laboratory’s network architecture and the supporting private cloud infrastructure, benchmarking some free software virtualization tools like CloudStack and OpenNebula."
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Bigbang"
+        meta = "Open Source | 2019 - Current"
+        tagline = "Wildlife's tool for creating and managing global multi-cluster production environments with Kubernetes. I worked as the architect and the main developer, using technologies such as Golang, k8s client-go, Kops, Terraform, Vault, Etcd, AWS EKS, Helm and Gitlab-CI."
+
+        [[params.projects.list]]
+        title = "Ixu"
+        meta = "Open Source | 2020 - Current"
+        tagline = "A Prometheus exporter for Gitlab management metadata. I worked as the architect and the main developer using technologies such as Prometheus, Grafana, Python, Openmetrics and Gitlab API."
+
+        [[params.projects.list]]
+        title = "Pushing Together"
+        meta = "Open Source | 2016 - 2018"
+        tagline = "A social platform for opinion gathering with checks and balances for opinion bubbles and manipulation. I was responsible for the clustering models using algorithms such as k-Means and PCA. I worked on its infrastructure, metrics collection, profiling and testing. The main technologies involved was Python, RabbitMQ, Numpy, Pandas, Matplotlib, Jupyter and Gitlab-CI."
+
+        [[params.projects.list]]
+        title = "Pascalina"
+        meta = "Educational Initiative | 2020"
+        tagline = "Personal project that aims to teach computer science to women from other areas of science based on study methods of competitive programming. I'm one of the coordinators and the main teacher."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Presentations"
+        [[params.information.list.items]]
+        details = "29 Oct 2020 · eBPF Summit · How Wildlife Studios built a Global Gaming Infrastructure with Cilium"
+        [[params.information.list.items]]
+        details = "3 Dec 2020 · Cloud Native Ireland + Wildlife · Global Gaming Infrastructure with Kubernetes and Cilium"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/luanguimaraesla"
+        title = "luanguimaraesla"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/luanguimaraesla"
+        title = "luanguimaraesla"
+
+
+
+
+
