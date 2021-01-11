@@ -61,14 +61,12 @@ googleAnalytics = ""
         details = "Golang/Python/C"
 
         [[params.skills.list]]
-        title = "Orchestrator"
+        title = "Container Orchestration"
         [[params.skills.list.items]]
-        details = "Kubernetes/Rancher/ECS"
+        details = "Kubernetes"
 
         [[params.skills.list]]
         title = "Cloud"
-        [[params.skills.list.items]]
-        details = "Cloudstack/OpenNebula"
         [[params.skills.list.items]]
         details = "Amazon AWS"
         [[params.skills.list.items]]
@@ -78,9 +76,7 @@ googleAnalytics = ""
         [[params.skills.list]]
         title = "Infrastructure as Code"
         [[params.skills.list.items]]
-        details = "Packer/Terraform/Ansible"
-        [[params.skills.list.items]]
-        details = "Helm/Kustomize"
+        details = "Packer/Terraform/Helm"
 
         [[params.skills.list]]
         title = "CI/CD"
@@ -98,11 +94,13 @@ googleAnalytics = ""
         [[params.skills.list]]
         title = "Other"
         [[params.skills.list.items]]
-        details = "Elasticsearch/Kibana/Filebeat"
+        details = "Elasticsearch/Filebeat"
         [[params.skills.list.items]]
-        details = "Postgres/Etcd/gRPC"
+        details = "Postgres/Etcd/MQTTsn"
         [[params.skills.list.items]]
         details = "Kops/Cilium"
+        [[params.skills.list.items]]
+        details = "Docker"
 
 
 
@@ -191,7 +189,7 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "I studied electronic and software engineering where I discovered a great interest in low-level programming. Since college I have worked with low-level embedded systems, which has opened the door to the universe of Linux, networks and various other infrastructure topics. I worked as a technical leader in projects for prototyping and implantation of on-premises infrastructure in some university laboratories and also in projects outside the university, such as the Colombian Ministry of Health's epidemiological study center. At the same time, I participated in several projects involving machine learning and clustering systems. My current challenge is working in the gaming industry, building and maintaining solutions that support millions of users worldwide with technologies such as Kubernetes, Terraform, Vault, etc."
+        text = "I studied electronic and software engineering where I discovered a great interest in low-level programming. Since college I have worked with low-level embedded systems, which has opened the door to the universe of Linux, networks and various other infrastructure topics. I worked on projects for prototyping and implantation of on-premises infrastructure in some university laboratories and other places such as the Colombian Ministry of Health's epidemiological study center. At the same time, I participated in several projects involving machine learning and clustering systems. My current experience is in the gaming industry, building and maintaining solutions that support millions of users worldwide with technologies such as Kubernetes, Terraform, and Vault."
 
 
 
@@ -209,45 +207,65 @@ googleAnalytics = ""
         [[params.experience.list.items]]
         details = "Responsible for maintaining a global scale gamming infrastructure using technologies like Kubernetes, Cilium and Vault."
         [[params.experience.list.items]]
-        details = "Worked on a variety of projects with different technologies, including Golang, Python, Kubernetes, Etcd, Elasticsearch, eBPF."
+        details = "Worked on a variety of projects with different technologies, including Golang, Python, Kubernetes, Helm, Etcd, Terraform, Elasticsearch."
         [[params.experience.list.items]]
         details = "Development leader of the technology used for easily managing multiple Kubernetes clusters and networks in AWS around the world, including China."
         [[params.experience.list.items]]
         details = "Implementation and maintenance of log and metric collection for monitoring systems, including Datadog, Prometheus, Grafana and the ELK stack."
         [[params.experience.list.items]]
         details = "Development of Terraform modules and CI/CD pipelines applying Infrastructure as Code practices."
+        [[params.experience.list.items]]
+        details = "Configuration of highly available infrastructure for GPU workloads within Amazon EKS."
 
         [[params.experience.list]]
         title = "DevOps/Machine Learning Engineer"
         dates = "2017 - 2018"
         company = "Hacklab"
-        details = "The project Brasil Que o Povo Quer is a platform for social participation and opinion gathering used by Perseu Abramo Foundation to build a new political program for Brazilian public policies. Worked developing the core application and some distributed PCA/k-means clustering models. "
+        details = "The project Brasil Que o Povo Quer is a political platform for social participation and opinion gathering."
+        [[params.experience.list.items]]
+        details = "I worked developing the core Python application."
+        [[params.experience.list.items]]
+        details = "Integrated distributed components with Celery."
+        [[params.experience.list.items]]
+        details = "Implemented distributed PCA/k-means clustering models."
 
         [[params.experience.list]]
         title = "Infrastructure Engineer"
         dates = "2017"
         company = "Instituto Nacional de la Salud de Colombia"
-        details = "I worked developing and deploying the project Guardianes de la Salud, a platform to help the Colombian National Institute of Health (INS) to monitor and study epidemics. I worked to guarantee the performance, scalability, and reduction of the application's operational cost. I also taught internal courses of Linux virtualization, Linux containers, and Continuous Integration to the Institute's engineers."
+        details = "A platform to help the Colombian National Institute of Health (INS) to monitor and study epidemics."
+        [[params.experience.list.items]]
+        details = "I worked optimizing and deploying the project Guardianes de la Salud."
+        [[params.experience.list.items]]
+        details = "Responsible for the server performance, scalability, and reduction of the application's operational cost."
+        [[params.experience.list.items]]
+        details = "Internal courses of Linux virtualization, Linux containers, and Continuous Integration to the Institute's engineers."
 
         [[params.experience.list]]
         title = "Software Engineer Researcher"
-        dates = "2016 - 2018"
+        dates = "2013 - 2018"
         company = "LAPPIS | University of Brasilia"
-        details = "I worked in the project Pushing Together, a social platform for opinion gathering with checks and balances for opinion bubbles and manipulation. I participated in the development of the core application and the mathematical module. I was also responsible for creating and maintaining the cloud infrastructure that supported the service."
+        [[params.experience.list.items]]
+        details = "Worked in several Python projects as backend developer"
+        [[params.experience.list.items]]
+        details = "Studied and implemented machine learning clustering models for social participation online platforms."
+        [[params.experience.list.items]]
+        details = "Design and creation of the laboratory's on-premises cloud infrastrucuture using OpenNebula and Rancher."
+        [[params.experience.list.items]]
+        details = "Created and maintained the laboratory's development infrastructure for many open source projects, including SPB, the Brazilian public software platform."
+        [[params.experience.list.items]]
+        details = "Benchmarking some open source virtualization tools like CloudStack and OpenNebula."
 
 
         [[params.experience.list]]
         title = "Infrastructure Engineer Intern"
-        dates = "2014 - 2016"
+        dates = "2016 - 2017"
         company = "CENTEIAS | University of Brasilia"
-        details = "CENTEIAS is a laboratory for epidemiological studies of the Healthy Department at UnB. I was responsible for creating a new private cloud infrastructure based on opensource software for virtualization and Linux container orchestration, including OpenNebula and Rancher. I also worked on the migration of several services to container-based solutions and implemented reliable CI/CD pipelines for these projects."
-
-        [[params.experience.list]]
-        title = "Infrastructure Engineer Researcher"
-        dates = "2013 - 2014"
-        company = "LAPPIS | University of Brasilia"
-        details = "I worked creating and maintaining the laboratory's development infrastructure for the project SPB, a developing collaborative environment that aims at reducing government costs with software contracts. During the project, I worked on designing the laboratory’s network architecture and the supporting private cloud infrastructure, benchmarking some free software virtualization tools like CloudStack and OpenNebula."
-
+        details = "CENTEIAS is a laboratory for epidemiological studies of the Healthy Department at UnB."
+        [[params.experience.list.items]]
+        details = "Responsible for creating a new private cloud infrastructure based on opensource software for virtualization and Linux container orchestration, including OpenNebula and Rancher."
+        [[params.experience.list.items]]
+        details = "Migrated several services to container-based solutions and implemented reliable CI/CD pipelines for these projects with Gitlab CI."
 
 
 
@@ -260,7 +278,7 @@ googleAnalytics = ""
 
         [[params.projects.list]]
         title = "Bigbang"
-        meta = "Open Source | 2019 - Current"
+        meta = "Closed Source | 2019 - Current"
         tagline = "Wildlife's tool for creating and managing global multi-cluster production environments with Kubernetes. I worked as the architect and the main developer, using technologies such as Golang, k8s client-go, Kops, Terraform, Vault, Etcd, AWS EKS, Helm and Gitlab-CI."
 
         [[params.projects.list]]
@@ -271,7 +289,7 @@ googleAnalytics = ""
         [[params.projects.list]]
         title = "Pushing Together"
         meta = "Open Source | 2016 - 2018"
-        tagline = "A social platform for opinion gathering with checks and balances for opinion bubbles and manipulation. I was responsible for the clustering models using algorithms such as k-Means and PCA. I worked on its infrastructure, metrics collection, profiling and testing. The main technologies involved was Python, RabbitMQ, Numpy, Pandas, Matplotlib, Jupyter and Gitlab-CI."
+        tagline = "A social platform for opinion gathering with checks and balances for opinion bubbles and manipulation. I was responsible for the clustering models using algorithms such as k-Means and PCA. I worked on its infrastructure, metrics collection, profiling and testing. The main technologies involved was Python, Numpy, Scikit-learn, Pandas and Matplotlib."
 
         [[params.projects.list]]
         title = "Pascalina"
@@ -296,7 +314,13 @@ googleAnalytics = ""
         details = "29 Oct 2020 · eBPF Summit · How Wildlife Studios built a Global Gaming Infrastructure with Cilium"
         [[params.information.list.items]]
         details = "3 Dec 2020 · Cloud Native Ireland + Wildlife · Global Gaming Infrastructure with Kubernetes and Cilium"
+        [[params.information.list.items]]
+        details = "31 Aug 2020 · BOSS Initiative · What's behind a game?"
 
+        [[params.information.list]]
+        title = "Technical Articles"
+        [[params.information.list.items]]
+        details = "3 Sep 2020 · Cilium Blog · How Wildlife Studios built a Global Multi Cluster Gaming Infrastructure with Cilium"
 
 
 
