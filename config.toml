@@ -6,6 +6,8 @@ title = "Luan Guimarães"
 theme = "hugo-devresume-theme"
 googleAnalytics = ""
 
+publishDir = "docs"
+
 [params]
     author = "Luan Guimarães"
     description = "Software Engineer"
