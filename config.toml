@@ -33,7 +33,7 @@ publishDir = "docs"
 
     [params.contact]
         enable = true
-        location = "São Paulo - Brazil"
+        location = "Ubatuba - SP - Brazil"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -60,7 +60,7 @@ publishDir = "docs"
         [[params.skills.list]]
         title = "Languages"
         [[params.skills.list.items]]
-        details = "Golang/Python/C"
+        details = "Golang/Python"
 
         [[params.skills.list]]
         title = "Container Orchestration"
@@ -98,9 +98,9 @@ publishDir = "docs"
         [[params.skills.list.items]]
         details = "Elasticsearch/Filebeat"
         [[params.skills.list.items]]
-        details = "Postgres/Etcd/MQTTsn"
+        details = "Postgres/Etcd"
         [[params.skills.list.items]]
-        details = "Kops/Cilium"
+        details = "EKS/Kops/Cilium"
         [[params.skills.list.items]]
         details = "Docker"
 
@@ -176,6 +176,8 @@ publishDir = "docs"
         [[params.interests.list]]
         name = "Machine Learning"
         [[params.interests.list]]
+        name = "Quantum Computing"
+        [[params.interests.list]]
         name = "Automation"
         [[params.interests.list]]
         name = "Linux/eBPF"
@@ -191,7 +193,7 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "I studied electronic and software engineering where I discovered a great interest in low-level programming. Since college I have worked with low-level embedded systems, which has opened the door to the universe of Linux, networks and various other infrastructure topics. I worked on projects for prototyping and implantation of on-premises infrastructure in some university laboratories and other places such as the Colombian Ministry of Health's epidemiological study center. At the same time, I participated in several projects involving machine learning and clustering systems. My current experience is in the gaming industry, building and maintaining solutions that support millions of users worldwide with technologies such as Kubernetes, Terraform, and Vault."
+        text = "Since college I have worked with low-level embedded systems, which has opened the door to the universe of Linux, networks and other infrastructure topics. I worked on projects for prototyping and implantation of on-premises infrastructure in some university laboratories and other places such as the Colombian Ministry of Health's epidemiological study center. At the same time, I participated in several projects involving machine learning and clustering systems. My last experience was in the gaming industry, building and maintaining solutions that support millions of daily active users worldwide."
 
 
 
@@ -202,8 +204,8 @@ publishDir = "docs"
         enable = true
 
         [[params.experience.list]]
-        title = "Site Reliability Engineer"
-        dates = "2018 - Present"
+        title = "Senior Site Reliability Engineer"
+        dates = "2018 - 2021"
         company = "Wildlife Studios"
         details = "Wildlife Studios is one of the 10 largest mobile gaming companies in the world."
         [[params.experience.list.items]]
@@ -280,7 +282,7 @@ publishDir = "docs"
 
         [[params.projects.list]]
         title = "Bigbang"
-        meta = "Closed Source | 2019 - Current"
+        meta = "Closed Source | 2019 - 2021"
         tagline = "Wildlife's tool for creating and managing global multi-cluster production environments with Kubernetes. I worked as the architect and the main developer, using technologies such as Golang, k8s client-go, Kops, Terraform, Vault, Etcd, AWS EKS, Helm and Gitlab-CI."
 
         [[params.projects.list]]
@@ -313,11 +315,11 @@ publishDir = "docs"
         [[params.information.list]]
         title = "Presentations"
         [[params.information.list.items]]
+        details = "31 Aug 2020 · BOSS Initiative · What's behind a game?"
+        [[params.information.list.items]]
         details = "29 Oct 2020 · eBPF Summit · How Wildlife Studios built a Global Gaming Infrastructure with Cilium"
         [[params.information.list.items]]
         details = "3 Dec 2020 · Cloud Native Ireland + Wildlife · Global Gaming Infrastructure with Kubernetes and Cilium"
-        [[params.information.list.items]]
-        details = "31 Aug 2020 · BOSS Initiative · What's behind a game?"
 
         [[params.information.list]]
         title = "Technical Articles"
