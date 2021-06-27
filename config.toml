@@ -193,7 +193,7 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "Since college I have worked with low-level embedded systems, which has opened the door to the universe of Linux, networks and other infrastructure topics. I worked on projects for prototyping and implantation of on-premises infrastructure in some university laboratories and other places such as the Colombian Ministry of Health's epidemiological study center. At the same time, I participated in several projects involving machine learning and clustering systems. My last experience was in the gaming industry, building and maintaining solutions that support millions of daily active users worldwide."
+        text = "I started in computing by studying and developing low-level embedded systems, which has opened the door to the universe of Linux, networks, and other infrastructure topics. Then I worked on designing on-premises cloud infrastructure for some university laboratories and social organizations. These opportunities led me to engage in several open-source communities all over the world. At the same time, through social initiatives aimed at improving democratic processes in Brazil, I participated in the development of machine learning projects and clustering systems. My last experience was in the gaming industry, building and maintaining solutions that support millions of daily active users worldwide."
 
 
 
