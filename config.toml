@@ -42,7 +42,7 @@ publishDir = "docs"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "luang@riseup.net"
+        text = "luang@pm.me"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
@@ -60,7 +60,7 @@ publishDir = "docs"
         [[params.skills.list]]
         title = "Languages"
         [[params.skills.list.items]]
-        details = "Golang/Python"
+        details = "Python/Golang"
 
         [[params.skills.list]]
         title = "Container Orchestration"
@@ -102,7 +102,7 @@ publishDir = "docs"
         [[params.skills.list.items]]
         details = "EKS/Kops/Cilium"
         [[params.skills.list.items]]
-        details = "Docker"
+        details = "Linux/Containers"
 
 
 
@@ -174,11 +174,9 @@ publishDir = "docs"
         [[params.interests.list]]
         name = "Computer Networks"
         [[params.interests.list]]
-        name = "Machine Learning"
+        name = "Data Engineering"
         [[params.interests.list]]
-        name = "Quantum Computing"
-        [[params.interests.list]]
-        name = "Automation"
+        name = "Internet Privacy"
         [[params.interests.list]]
         name = "Linux/eBPF"
         [[params.interests.list]]
@@ -193,7 +191,7 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "I started in computing by studying and developing low-level embedded systems, which has opened the door to the universe of Linux, networks, and other infrastructure topics. Then I worked on designing on-premises cloud infrastructure for some university laboratories and social organizations. These opportunities led me to engage in several open-source communities all over the world. At the same time, through social initiatives aimed at improving democratic processes in Brazil, I participated in the development of machine learning projects and clustering systems. My last experience was in the gaming industry, building and maintaining solutions that support millions of daily active users worldwide."
+        text = "I started in computing by studying and developing low-level embedded systems, which has opened the door to the universe of Linux, networks, and other infrastructure topics. Then I worked on designing on-premises cloud infrastructure for some university laboratories and social organizations. These opportunities led me to engage in several open-source communities all over the world. At the same time, through social initiatives aimed at improving democratic processes in Brazil, I participated in the development of machine learning projects and clustering systems. In the last years, I worked for the gaming industry as SRE, building and maintaining solutions that support millions of daily active users worldwide. Now, I'm building a whole data infrastructure from scratch in a Brazilian startup."
 
 
 
@@ -202,6 +200,19 @@ publishDir = "docs"
 
     [params.experience]
         enable = true
+
+        [[params.experience.list]]
+        title = "Data/DataOps Engineer"
+        dates = "2021 - Present"
+        company = "Sanar"
+        details = "A startup that works building technology to boost the journey of healthcare professionals."
+        [[params.experience.list.items]]
+        details = "Responsible for designing an build a cost-effective data processing infrastructure in AWS."
+        [[params.experience.list.items]]
+        details = "Development of the necessary tooling and libs to drive data analysts' work"
+        [[params.experience.list.items]]
+        details = "Implementation of IaC practices, configuration management, automated testing and monitoring within the data team."
+
 
         [[params.experience.list]]
         title = "Senior Site Reliability Engineer"
