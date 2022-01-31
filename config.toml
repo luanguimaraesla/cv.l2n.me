@@ -38,14 +38,14 @@ publishDir = "docs"
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "+55 61 99974 6389"
+        text = "+55 12 99214 6876"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
+        url = "mailto:luang@pm.me"
         text = "luang@pm.me"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
+        url = "https://l2n.me"
         text = "l2n.me"
 
 
@@ -205,11 +205,11 @@ publishDir = "docs"
         title = "Data/DataOps Engineer"
         dates = "2021 - Present"
         company = "Sanar"
-        details = "A startup that works building technology to boost the journey of healthcare professionals."
+        details = "A startup that works with building technology to boost the journey of healthcare professionals."
         [[params.experience.list.items]]
-        details = "Responsible for designing an build a cost-effective data processing infrastructure in AWS."
+        details = "Responsible for designing an building a cost-effective data processing infrastructure in AWS."
         [[params.experience.list.items]]
-        details = "Development of the necessary tooling and libs to drive data analysts' work"
+        details = "Development of the necessary tooling and libs to drive the data analysis work"
         [[params.experience.list.items]]
         details = "Implementation of IaC practices, configuration management, automated testing and monitoring within the data team."
 
@@ -236,13 +236,13 @@ publishDir = "docs"
         title = "DevOps/Machine Learning Engineer"
         dates = "2017 - 2018"
         company = "Hacklab"
-        details = "The project Brasil Que o Povo Quer is a political platform for social participation and opinion gathering."
+        details = "The project \"Brasil Que o Povo Quer\" is a political platform for social participation and opinion gathering."
         [[params.experience.list.items]]
-        details = "I worked developing the core Python application."
+        details = "Development of the core Python application."
         [[params.experience.list.items]]
-        details = "Integrated distributed components with Celery."
+        details = "Integration of distributed components with Celery."
         [[params.experience.list.items]]
-        details = "Implemented distributed PCA/k-means clustering models."
+        details = "Development of distributed PCA/k-means clustering models."
 
         [[params.experience.list]]
         title = "Infrastructure Engineer"
@@ -250,7 +250,7 @@ publishDir = "docs"
         company = "Instituto Nacional de la Salud de Colombia"
         details = "A platform to help the Colombian National Institute of Health (INS) to monitor and study epidemics."
         [[params.experience.list.items]]
-        details = "I worked optimizing and deploying the project Guardianes de la Salud."
+        details = "Enhancement and deployment of the project \"Guardianes de la Salud.\""
         [[params.experience.list.items]]
         details = "Responsible for the server performance, scalability, and reduction of the application's operational cost."
         [[params.experience.list.items]]
@@ -261,11 +261,11 @@ publishDir = "docs"
         dates = "2013 - 2018"
         company = "LAPPIS | University of Brasilia"
         [[params.experience.list.items]]
-        details = "Worked in several Python projects as backend developer"
+        details = "Worked with several Python projects as backend developer"
         [[params.experience.list.items]]
-        details = "Studied and implemented machine learning clustering models for social participation online platforms."
+        details = "Studied and implemented machine learning clustering models for online social participation platforms."
         [[params.experience.list.items]]
-        details = "Design and creation of the laboratory's on-premises cloud infrastrucuture using OpenNebula and Rancher."
+        details = "Designed and created the laboratory's on-premises cloud infrastrucuture using OpenNebula and Rancher."
         [[params.experience.list.items]]
         details = "Created and maintained the laboratory's development infrastructure for many open source projects, including SPB, the Brazilian public software platform."
         [[params.experience.list.items]]
@@ -280,7 +280,7 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Responsible for creating a new private cloud infrastructure based on opensource software for virtualization and Linux container orchestration, including OpenNebula and Rancher."
         [[params.experience.list.items]]
-        details = "Migrated several services to container-based solutions and implemented reliable CI/CD pipelines for these projects with Gitlab CI."
+        details = "Migration of several services to container-based solutions and implemented reliable CI/CD pipelines for these projects with Gitlab CI."
 
 
 
@@ -304,12 +304,12 @@ publishDir = "docs"
         [[params.projects.list]]
         title = "Pushing Together"
         meta = "Open Source | 2016 - 2018"
-        tagline = "A social platform for opinion gathering with checks and balances for opinion bubbles and manipulation. I was responsible for the clustering models using algorithms such as k-Means and PCA. I worked on its infrastructure, metrics collection, profiling and testing. The main technologies involved was Python, Numpy, Scikit-learn, Pandas and Matplotlib."
+        tagline = "A social platform for opinion gathering with checks and balances of opinion bubbles and manipulation. I was responsible for the clustering models using algorithms such as k-Means and PCA. I worked on its infrastructure, metrics collection, profiling and testing. The main technologies involved was Python, Numpy, Scikit-learn, Pandas and Matplotlib."
 
         [[params.projects.list]]
         title = "Pascalina"
         meta = "Educational Initiative | 2020"
-        tagline = "Personal project that aims to teach computer science to women from other areas of science based on study methods of competitive programming. I'm one of the coordinators and the main teacher."
+        tagline = "Personal project that aims at teaching computer science to women from other areas of science based on study methods of competitive programming. I'm one of the coordinators and the main teacher."
 
 
 
@@ -347,6 +347,10 @@ publishDir = "docs"
         enable = true
 
         [[params.social.list]]
+        icon = "fab fa-gitlab"
+        url = "//gitlab.com/luanguimaraesla"
+        title = "luanguimaraesla"
+        [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/luanguimaraesla"
         title = "luanguimaraesla"
@@ -354,8 +358,3 @@ publishDir = "docs"
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/luanguimaraesla"
         title = "luanguimaraesla"
-
-
-
-
-
