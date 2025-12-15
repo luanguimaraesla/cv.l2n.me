@@ -10,144 +10,88 @@ publishDir = "docs"
 
 [params]
     author = "Luan Guimarães"
-    description = "Software Engineer"
-
+    description = "CTO · Software Architect · Engineering Manager"
 
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
-
-
-
     [params.profile]
         enable = true
         name = "Luan Guimarães"
-        tagline = "Software Engineer"
-        avatar = "avatar.jpg"
-
-
-
-
-
-
+        tagline = "CTO · Software Architect · Engineering Manager"
+        avatar = "avatar.png"
 
     [params.contact]
         enable = true
-        location = "Ubatuba - SP - Brazil"
+        location = "São Paulo · Brazil"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "+55 12 99214 6876"
-        [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:luang@pm.me"
-        text = "luang@pm.me"
+        url = "mailto:luan@l2n.me"
+        text = "luan@l2n.me"
+
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "https://l2n.me"
         text = "l2n.me"
 
-
-
-
-
-
-
     [params.skills]
         enable = true
 
         [[params.skills.list]]
-        title = "Languages"
+        title = "Programming & Systems"
         [[params.skills.list.items]]
-        details = "Python/Golang"
+        details = "Go, Python, Rust (performance-critical systems)"
 
         [[params.skills.list]]
-        title = "Container Orchestration"
+        title = "Distributed & Event-Driven Systems"
         [[params.skills.list.items]]
-        details = "Kubernetes"
+        details = "Event-driven architectures, data streaming, messaging"
 
         [[params.skills.list]]
-        title = "Cloud"
+        title = "Cloud & Platforms"
         [[params.skills.list.items]]
-        details = "Amazon AWS"
+        details = "AWS and GCP"
         [[params.skills.list.items]]
-        details = "UCloud PathX"
-
+        details = "Multi-region and multi-cluster architectures"
 
         [[params.skills.list]]
-        title = "Infrastructure as Code"
+        title = "Kubernetes & Platform Engineering"
         [[params.skills.list.items]]
-        details = "Packer/Terraform/Helm"
+        details = "Kubernetes, Helm, Kops, Operators, Cilium"
 
         [[params.skills.list]]
-        title = "CI/CD"
+        title = "Infrastructure & Delivery"
         [[params.skills.list.items]]
-        details = "Gitlab-CI/FluxCD"
+        details = "Terraform, GitOps, CI/CD automation"
 
         [[params.skills.list]]
-        title = "Monitoring"
+        title = "Observability & Reliability"
         [[params.skills.list.items]]
-        details = "Datadog/PagerDuty"
-        [[params.skills.list.items]]
-        details = "Prometheus/Grafana"
-
+        details = "Prometheus, Grafana, Datadog, PagerDuty, ELK"
 
         [[params.skills.list]]
-        title = "Other"
+        title = "Data & Storage"
         [[params.skills.list.items]]
-        details = "Elasticsearch/Filebeat"
+        details = "PostgreSQL, timeseries databases, Elasticsearch, etcd"
+
+        [[params.skills.list]]
+        title = "Operating Systems & Networking"
         [[params.skills.list.items]]
-        details = "Postgres/Etcd"
-        [[params.skills.list.items]]
-        details = "EKS/Kops/Cilium"
-        [[params.skills.list.items]]
-        details = "Linux/Containers"
-
-
-
-
-
-
-
+        details = "Linux, networking, service mesh, eBPF"
 
     [params.education]
         enable = true
 
         [[params.education.list]]
-        degree = "BSc Software Engineering"
+        degree = "BSc in Software Engineering"
         university = "University of Brasília"
-        dates = "2014 - 2018"
+        dates = "2014 – 2018"
+
         [[params.education.list]]
-        degree = "BSc Electronic Engineering"
+        degree = "BSc in Electronic Engineering"
         university = "University of Brasília"
-        dates = "2012 - 2014 | Not finished"
-
-
-
-
-
-
-
-
-    [params.awards]
-        enable = false
-
-        [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
-
-
-
+        dates = "2012 – 2014 (transitioned)"
 
     [params.languages]
         enable = true
@@ -155,206 +99,170 @@ publishDir = "docs"
         [[params.languages.list]]
         name = "Portuguese"
         level = "Native"
+
         [[params.languages.list]]
         name = "English"
-        level = "Professional"
-
-
-
-
-
-
-
+        level = "Fluent / Professional"
 
     [params.interests]
         enable = true
 
         [[params.interests.list]]
-        name = "Embedeed Systems"
+        name = "Distributed systems & event-driven architectures"
         [[params.interests.list]]
-        name = "Computer Networks"
+        name = "Data engineering & timeseries platforms"
         [[params.interests.list]]
-        name = "Data Engineering"
+        name = "AI platforms & applied ML systems"
         [[params.interests.list]]
-        name = "Internet Privacy"
+        name = "High-performance & low-level systems"
         [[params.interests.list]]
-        name = "Linux/eBPF"
+        name = "Platform engineering & Kubernetes ecosystems"
         [[params.interests.list]]
-        name = "Open Source Communities"
-
-
-
-
-
-
-
+        name = "Engineering leadership & entrepreneurship"
 
     [params.summary]
         enable = true
-        text = "I started in computing by studying and developing low-level embedded systems, which has opened the door to the universe of Linux, networks, and other infrastructure topics. Then I worked on designing on-premises cloud infrastructure for some university laboratories and social organizations. These opportunities led me to engage in several open-source communities all over the world. At the same time, through social initiatives aimed at improving democratic processes in Brazil, I participated in the development of machine learning projects and clustering systems. In the last years, I worked for the gaming industry as SRE, building and maintaining solutions that support millions of daily active users worldwide. Now, I'm building a whole data infrastructure from scratch in a Brazilian startup."
-
-
-
-
-
+        text = "CTO and software architect with a strong background in distributed systems, data platforms, and reliability engineering. I’ve built and scaled infrastructure supporting millions of users, worked on core database and platform technologies, and led engineering teams in high-growth environments. My work is deeply influenced by open-source culture, SRE practices, and the belief that robust systems emerge from strong teams, clear processes, and architectures designed to operate reliably under real-world constraints."
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Data/DataOps Engineer"
-        dates = "2021 - Present"
-        company = "Sanar"
-        details = "A startup that works with building technology to boost the journey of healthcare professionals."
+        title = "CTO & Co-Founder"
+        dates = "2023 – 2025"
+        company = "deX Labs"
+        details = "Data engineering platform focused on ingestion, transformation, orchestration, and observability."
         [[params.experience.list.items]]
-        details = "Responsible for designing an building a cost-effective data processing infrastructure in AWS."
+        details = "Defined and led the technical vision, system architecture, and engineering culture."
         [[params.experience.list.items]]
-        details = "Development of the necessary tooling and libs to drive the data analysis work"
+        details = "Designed distributed, event-driven data pipelines and orchestration systems."
         [[params.experience.list.items]]
-        details = "Implementation of IaC practices, configuration management, automated testing and monitoring within the data team."
+        details = "Built and scaled the engineering team, delivery processes, and platform reliability."
+        [[params.experience.list.items]]
+        details = "At the end of 2025, the company was aqui-hired by Nubank to accelerate and give traction to its data and AI initiatives."
 
+        [[params.experience.list]]
+        title = "CTO & Co-Founder"
+        dates = "2023 – Present"
+        company = "Sinkove"
+        details = "AI-driven medical imaging company focused on improving healthcare workflows."
+        [[params.experience.list.items]]
+        details = "Led system architecture, AI infrastructure, and engineering strategy."
+        [[params.experience.list.items]]
+        details = "Designed scalable, secure, and compliant data and ML platforms."
+        [[params.experience.list.items]]
+        details = "Worked closely with product, research, and clinical stakeholders."
+
+        [[params.experience.list]]
+        title = "Senior Platform Engineer"
+        dates = "2022 – 2023"
+        company = "TimescaleDB (now TigerData)"
+        details = "Cloud-native timeseries database built on PostgreSQL."
+        [[params.experience.list.items]]
+        details = "Worked on core platform and infrastructure components for large-scale time-series workloads."
+        [[params.experience.list.items]]
+        details = "Contributed to reliability, performance, and operational improvements in distributed database systems."
+
+        [[params.experience.list]]
+        title = "Staff DataOps Engineer"
+        dates = "2021 – 2022"
+        company = "Sanar"
+        details = "Healthcare education and technology company."
+        [[params.experience.list.items]]
+        details = "Designed and implemented cost-efficient data platforms on AWS."
+        [[params.experience.list.items]]
+        details = "Built internal tooling, libraries, and IaC foundations for analytics teams."
+        [[params.experience.list.items]]
+        details = "Established CI/CD, observability, and operational standards."
 
         [[params.experience.list]]
         title = "Senior Site Reliability Engineer"
-        dates = "2018 - 2021"
+        dates = "2018 – 2021"
         company = "Wildlife Studios"
-        details = "Wildlife Studios is one of the 10 largest mobile gaming companies in the world."
+        details = "One of the world’s largest mobile gaming companies."
         [[params.experience.list.items]]
-        details = "Responsible for maintaining a global scale gamming infrastructure using technologies like Kubernetes, Cilium and Vault."
+        details = "Worked on global-scale Kubernetes infrastructure supporting millions of daily users."
         [[params.experience.list.items]]
-        details = "Worked on a variety of projects with different technologies, including Golang, Python, Kubernetes, Helm, Etcd, Terraform, Elasticsearch."
+        details = "Architected multi-region, multi-cluster platforms using Kubernetes, Cilium, Vault, and Terraform."
         [[params.experience.list.items]]
-        details = "Development leader of the technology used for easily managing multiple Kubernetes clusters and networks in AWS around the world, including China."
+        details = "Led internal platform development for cluster, networking, and reliability operations."
         [[params.experience.list.items]]
-        details = "Implementation and maintenance of log and metric collection for monitoring systems, including Datadog, Prometheus, Grafana and the ELK stack."
-        [[params.experience.list.items]]
-        details = "Development of Terraform modules and CI/CD pipelines applying Infrastructure as Code practices."
-        [[params.experience.list.items]]
-        details = "Configuration of highly available infrastructure for GPU workloads within Amazon EKS."
+        details = "Built observability, incident response, and SRE practices at scale."
 
         [[params.experience.list]]
-        title = "DevOps/Machine Learning Engineer"
-        dates = "2017 - 2018"
+        title = "DevOps / Machine Learning Engineer"
+        dates = "2017 – 2018"
         company = "Hacklab"
-        details = "The project \"Brasil Que o Povo Quer\" is a political platform for social participation and opinion gathering."
+        details = "Civic technology and social participation platforms."
         [[params.experience.list.items]]
-        details = "Development of the core Python application."
+        details = "Developed distributed Python systems for opinion clustering and analysis."
         [[params.experience.list.items]]
-        details = "Integration of distributed components with Celery."
+        details = "Implemented Celery-based distributed processing pipelines."
         [[params.experience.list.items]]
-        details = "Development of distributed PCA/k-means clustering models."
-
-        [[params.experience.list]]
-        title = "Infrastructure Engineer"
-        dates = "2017"
-        company = "Instituto Nacional de la Salud de Colombia"
-        details = "A platform to help the Colombian National Institute of Health (INS) to monitor and study epidemics."
-        [[params.experience.list.items]]
-        details = "Enhancement and deployment of the project \"Guardianes de la Salud.\""
-        [[params.experience.list.items]]
-        details = "Responsible for the server performance, scalability, and reduction of the application's operational cost."
-        [[params.experience.list.items]]
-        details = "Internal courses of Linux virtualization, Linux containers, and Continuous Integration to the Institute's engineers."
+        details = "Applied PCA and k-means models to large social datasets."
 
         [[params.experience.list]]
         title = "Software Engineer Researcher"
-        dates = "2013 - 2018"
-        company = "LAPPIS | University of Brasilia"
+        dates = "2013 – 2018"
+        company = "LAPPIS · University of Brasília"
         [[params.experience.list.items]]
-        details = "Worked with several Python projects as backend developer"
+        details = "Backend development for multiple open-source platforms."
         [[params.experience.list.items]]
-        details = "Studied and implemented machine learning clustering models for online social participation platforms."
+        details = "Core contributor to the Brazilian Public Software Portal (SPB)."
         [[params.experience.list.items]]
-        details = "Designed and created the laboratory's on-premises cloud infrastrucuture using OpenNebula and Rancher."
+        details = "Designed on-premises cloud infrastructure using OpenNebula and Rancher."
         [[params.experience.list.items]]
-        details = "Created and maintained the laboratory's development infrastructure for many open source projects, including SPB, the Brazilian public software platform."
-        [[params.experience.list.items]]
-        details = "Benchmarking some open source virtualization tools like CloudStack and OpenNebula."
-
-
-        [[params.experience.list]]
-        title = "Infrastructure Engineer Intern"
-        dates = "2016 - 2017"
-        company = "CENTEIAS | University of Brasilia"
-        details = "CENTEIAS is a laboratory for epidemiological studies of the Healthy Department at UnB."
-        [[params.experience.list.items]]
-        details = "Responsible for creating a new private cloud infrastructure based on opensource software for virtualization and Linux container orchestration, including OpenNebula and Rancher."
-        [[params.experience.list.items]]
-        details = "Migration of several services to container-based solutions and implemented reliable CI/CD pipelines for these projects with Gitlab CI."
-
-
-
-
-
-
+        details = "Researched and benchmarked open-source virtualization technologies."
 
     [params.projects]
         enable = true
 
         [[params.projects.list]]
+        title = "deX Labs Platform"
+        meta = "Commercial Platform · CTO & Co-Founder"
+        tagline = "Unified data engineering platform for ingestion, transformation, orchestration, and observability. Designed and led the architecture of distributed, event-driven systems with strong focus on reliability, scalability, and developer experience."
+
+        [[params.projects.list]]
+        title = "Sinkove AI Platform"
+        meta = "Healthcare AI · CTO & Co-Founder"
+        tagline = "AI-driven medical imaging platform integrating data pipelines, model serving, and clinical workflows. Responsible for system architecture, ML infrastructure, and operational reliability."
+
+        [[params.projects.list]]
         title = "Bigbang"
-        meta = "Closed Source | 2019 - 2021"
-        tagline = "Wildlife's tool for creating and managing global multi-cluster production environments with Kubernetes. I worked as the architect and the main developer, using technologies such as Golang, k8s client-go, Kops, Terraform, Vault, Etcd, AWS EKS, Helm and Gitlab-CI."
+        meta = "Internal Platform · Wildlife Studios"
+        tagline = "Global multi-cluster Kubernetes platform for production environments. Architect and lead developer. Stack: Go, Kubernetes, Terraform, Vault, etcd, AWS, Helm."
 
         [[params.projects.list]]
         title = "Ixu"
-        meta = "Open Source | 2020 - Current"
-        tagline = "A Prometheus exporter for Gitlab management metadata. I worked as the architect and the main developer using technologies such as Prometheus, Grafana, Python, Openmetrics and Gitlab API."
+        meta = "Open Source"
+        tagline = "Prometheus exporter for GitLab metadata. Architect and main developer using Python, OpenMetrics, Prometheus, and Grafana."
 
         [[params.projects.list]]
         title = "Pushing Together"
-        meta = "Open Source | 2016 - 2018"
-        tagline = "A social platform for opinion gathering with checks and balances of opinion bubbles and manipulation. I was responsible for the clustering models using algorithms such as k-Means and PCA. I worked on its infrastructure, metrics collection, profiling and testing. The main technologies involved was Python, Numpy, Scikit-learn, Pandas and Matplotlib."
-
-        [[params.projects.list]]
-        title = "Pascalina"
-        meta = "Educational Initiative | 2020"
-        tagline = "Personal project that aims at teaching computer science to women from other areas of science based on study methods of competitive programming. I'm one of the coordinators and the main teacher."
-
-
-
-
-
-
-
-
-
+        meta = "Open Source · Civic Tech"
+        tagline = "Opinion-gathering platform with anti-manipulation clustering. Responsible for ML models and infrastructure."
 
     [params.information]
         enable = true
 
         [[params.information.list]]
-        title = "Presentations"
+        title = "Talks & Publications"
         [[params.information.list.items]]
-        details = "31 Aug 2020 · BOSS Initiative · What's behind a game?"
+        details = "eBPF Summit · How Wildlife Studios built a global gaming infrastructure with Cilium"
         [[params.information.list.items]]
-        details = "29 Oct 2020 · eBPF Summit · How Wildlife Studios built a Global Gaming Infrastructure with Cilium"
+        details = "Cloud Native Ireland · Global gaming infrastructure with Kubernetes"
         [[params.information.list.items]]
-        details = "3 Dec 2020 · Cloud Native Ireland + Wildlife · Global Gaming Infrastructure with Kubernetes and Cilium"
-
-        [[params.information.list]]
-        title = "Technical Articles"
-        [[params.information.list.items]]
-        details = "3 Sep 2020 · Cilium Blog · How Wildlife Studios built a Global Multi Cluster Gaming Infrastructure with Cilium"
-
-
-
-
-
-
+        details = "Cilium Blog · Global multi-cluster gaming infrastructure"
 
     [params.social]
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-gitlab"
-        url = "//gitlab.com/luanguimaraesla"
-        title = "luanguimaraesla"
-        [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/luanguimaraesla"
-        title = "luanguimaraesla"
+        title = "GitHub"
+
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/luanguimaraesla"
-        title = "luanguimaraesla"
+        title = "LinkedIn"
